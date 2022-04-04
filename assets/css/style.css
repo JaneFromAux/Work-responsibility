@@ -20,15 +20,14 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #000;
-    background-color: #eee;
+    background-color: #ccc;
 }
 
 /* *************************
             Header
 *************************** */
-/* header{
-    height: 100vh;
-} */
+
+
 h1, h2, h3, h4, ul, div, article{
     margin-left: 10%;
     margin-right:10%;
@@ -61,10 +60,24 @@ header h2{
 }
 
 header section a{
+    width: 44px;
+    height: 44px;
     display: block;
     margin-top: 1%;
     margin-left: 90%;
+    border-radius: 25px;
+    
 }
+header section a:hover{
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin-top: 1%;
+    margin-left: 90%;
+    box-shadow: 0 0 20px black;
+    border-radius: 25px;
+}
+
 header p{
     font-size: 2rem;
     padding-left: 10%;
@@ -166,7 +179,7 @@ footer{
 footer h2{
     margin: 12rem auto;
     font-size: 3rem;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #333;
     padding-top: 12rem;
 }
 footer h2::before{
