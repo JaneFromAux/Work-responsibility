@@ -13,7 +13,7 @@ farbe text: #659d89, #333, #666, #000
 }
 
 html{
-    font-size: 10px;
+    font-size: 62,5%;
     margin-top: 3%;
 }
 body{
@@ -178,7 +178,7 @@ div p, article p{
         Footer
 ****************** */
 footer{
-    margin-top: 298rem;
+    margin-top: 210rem;
     text-align: center;
     color:#333;
 }
@@ -200,7 +200,7 @@ footer p{
 margin-bottom: 2rem;
 }
 footer p::before{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     content: '©';
     }
 
